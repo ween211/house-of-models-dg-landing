@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>House of Models DG</title>
+  <link rel="icon" href="./img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="logo" href="#hero" aria-label="House of Models DG">
+        <img src="./img/logo.svg" alt="House of Models DG" class="logo__img">
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#hero">Главная</a>
+        <a href="#about">О нас</a>
+        <a href="#requirements">Требования</a>
+        <a href="#where">Где мы</a>
+        <a href="#faq">Вопросы</a>
+        <a href="#feedback">Записаться</a>
+      </nav>
+
+      <button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#hero">Главная</a>
+    <a href="#about">О нас</a>
+    <a href="#requirements">Требования</a>
+    <a href="#where">Где мы</a>
+    <a href="#faq">Вопросы</a>
+    <a href="#feedback">Записаться</a>
+  </div>
+
+  <div class="overlay" id="overlay"></div>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero__content">
+        <h1>House of Models DG</h1>
+        <a href="#feedback" class="button button--outline">Записаться</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about__image" aria-hidden="true"></div>
+
+      <div class="about__content">
+        <h2>О нашей компании</h2>
+
+        <p>
+          Добро пожаловать в профессионально оборудованную студию для моделей.
+          Мы создали комфортные условия для работы, техническую поддержку и понятную
+          систему сопровождения.
+        </p>
+
+        <p>
+          Наставники помогают на каждом этапе: от первых смен и стажировки до развития
+          личного бренда, уверенности, коммуникации и стабильного роста.
+        </p>
+
+        <p>
+          Работая с нами, можно выбрать комфортный график, получать поддержку команды
+          и постепенно развиваться в профессии.
+        </p>
+      </div>
+    </section>
+
+    <section class="requirements container" id="requirements">
+      <h2>Требования</h2>
+
+      <div class="requirements__grid">
+        <article class="requirement">
+          <span>1</span>
+          <div>
+            <h3>Совершеннолетие</h3>
+            <p>Мы рассматриваем кандидатов строго от 18 лет.</p>
+          </div>
+        </article>
+
+        <article class="requirement">
+          <span>2</span>
+          <div>
+            <h3>Желание обучаться</h3>
+            <p>Важно быть готовой принимать обратную связь и следовать рекомендациям наставника.</p>
+          </div>
+        </article>
+
+        <article class="requirement">
+          <span>3</span>
+          <div>
+            <h3>Опрятность</h3>
+            <p>Нет строгих модельных параметров, но важны аккуратность и приятный внешний вид.</p>
+          </div>
+        </article>
+
+        <article class="requirement">
+          <span>4</span>
+          <div>
+            <h3>Коммуникабельность</h3>
+            <p>Работа связана с общением, поэтому открытость и позитив будут преимуществом.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="where container" id="where">
+      <h2>Где нас искать?</h2>
+
+      <div class="where__card">
+        <div>
+          <h3>Мы в Telegram</h3>
+          <p>
+            Переходите в наш Telegram-канал по QR-коду, чтобы узнать больше о студии,
+            задать вопросы и оставить заявку.
+          </p>
+        </div>
+
+        <div class="qr">
+          <img src="./img/qr.PNG" alt="QR-код Telegram">
+        </div>
+      </div>
+    </section>
+
+    <section class="faq container" id="faq">
+      <h2>Часто задаваемые вопросы</h2>
+
+      <div class="faq__list">
+        <article class="faq__item is-open">
+          <button class="faq__head" type="button">
+            <span>Какие преимущества есть в работе онлайн-моделью?</span>
+            <span class="faq__icon">+</span>
+          </button>
+
+          <p>
+            Доступ к широкой аудитории, развитие личного бренда, прокачка коммуникации,
+            уверенности, маркетинга и финансовой дисциплины.
+          </p>
+        </article>
+
+        <article class="faq__item">
+          <button class="faq__head" type="button">
+            <span>Какие инструменты доступны моделям?</span>
+            <span class="faq__icon">+</span>
+          </button>
+
+          <p>
+            Главный инструмент модели — харизма, регулярность и готовность работать.
+            Команда помогает с адаптацией и ростом.
+          </p>
+        </article>
+
+        <article class="faq__item">
+          <button class="faq__head" type="button">
+            <span>Есть ли поддержка для начинающих?</span>
+            <span class="faq__icon">+</span>
+          </button>
+
+          <p>
+            Да. Мы обучаем с нуля, сопровождаем на стажировке и закрепляем персонального наставника.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="feedback" id="feedback">
+      <div class="container">
+        <h2>Записаться к нам</h2>
+        <p class="feedback__lead">Задавайте вопросы и оставляйте заявку в нашу студию.</p>
+
+        <form class="form" id="feedbackForm">
+          <div class="status-message" id="statusMessage" hidden></div>
+
+          <div class="form__grid">
+            <div class="upload" id="dropZone">
+              <input type="file" id="fileInput" accept="image/*" hidden>
+
+              <div class="upload__preview" id="preview">
+                <span>Загрузите ваше фото</span>
+              </div>
+            </div>
+
+            <div class="form__fields">
+              <input name="name" type="text" placeholder="Ваше имя*" required>
+              <input name="age" type="number" placeholder="Возраст*" required>
+              <input name="city" type="text" placeholder="Город*" required>
+              <input name="telegram" type="text" placeholder="Телеграм*" required>
+              <button type="submit">Отправить заявку</button>
+            </div>
+          </div>
+        </form>
+
+        <div class="contacts">
+          <a href="mailto:house_of_models_dg@mail.ru">house_of_models_dg@mail.ru</a>
+          <a href="https://t.me/MGM_RND" target="_blank" rel="noopener">Telegram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© House of Models DG, <span id="currentYear"></span></span>
+
+    <nav>
+      <a href="./privacy.html">Политика конфиденциальности</a>
+      <a href="./terms.html">Пользовательское соглашение</a>
+    </nav>
+  </footer>
+
+  <script src="./js/main.js" defer></script>
+</body>
+</html>
